@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lunalipse>
+	<uint CompntName="common">
+		<L0>简体中文</L0>
+		<L1>English</L1>
+		<L2>Русский</L2>
+	</uint>
+	<unit CompntName="Cfg">
+		<CfgIncmp>Несовместимый файл конфигурации</CfgIncmp>
+		<CfgIncmpC>Информация о версии, не записанная в текущем файле конфигурации. Это может быть файл в версии сборки или ранее. Процедура регенерации была выполнена.</CfgIncmpC>
+		<CfgOld>Старый файл конфигурации</CfgOld>
+		<CfgOldC>Версия файла конфигурации: {0} не совпадает с {1}, которая является текущей версией Lunalipse. Нажмите кнопку сохранения в главном окне, чтобы выполнить необязательные переопределения.</CfgOldC>
+	</unit>
+	<unit CompntName="MainWindow">
+		<orderPlay>Переплет списка</orderPlay>
+		<singleLoop>Одиночная петля</singleLoop>
+		<randomPlay>Cлучайный</randomPlay>
+		<program>Программа {0}</program>
+		<saveCfg>Сохранить</saveCfg>
+		<MusicDir>Музыка</MusicDir>
+		<lpxCfg>Настройка скриптов</lpxCfg>
+		<btnList1>Интернет</btnList1>
+		<btnList2>Pедактировать</btnList2>
+		<btnList3>Загрузить скрипт</btnList3>
+		<btnList4>Балансир</btnList4>
+		<GErr>Общая ошибка</GErr>
+		<GE_C1>Скрипт не был загружен.</GE_C1>
+	</unit>
+	<unit CompntName="scriptCfg">
+		<title>Луналипьсь Указатель Программы (Л.У.П.)</title>
+		<curPtr>Текущий указатель</curPtr>
+		<newPtr>Новый указатель</newPtr>
+		<apyCfgD>Применить (Задержка)</apyCfgD>
+		<apyCfgN>Применить (немедленно) </apyCfgN>
+	</unit>
+	<unit CompntName="OLmusic">
+		<search>搜索</search>
+		<smode_M>单曲</smode_M>
+		<smode_L>歌词</smode_L>
+	</unit>
+	<unit CompntName="MusicDetail">
+		<extend>音频格式</extend>
+		<bitrate>比特率</bitrate>
+		<singer>演唱者</singer>
+		<L>标准音质</L>
+		<M>中等音质</M>
+		<H>高等音质</H>
+		<await>当前没有任务</await>
+		<Downloading>正在下载：</Downloading>
+		<kb>KB</kb>
+		<mb>MB</mb>
+		<gb>GB</gb>
+	</unit>
+	<unit CompntName="Dia_Tip">
+		<ok>Подтвердить</ok>
+	</unit>
+	<unit CompntName="Setting">
+		<title>Луналипьсь Глобальные Настройки</title>
+		<T1>Лирическая Область Отображения</T1>
+		<T1_Sub1>Включение спектра БПФ</T1_Sub1>
+		<T1_Sub2>Отображение текущей воспроизводимой музыки</T1_Sub2>
+		<T1_Sub3>Отображение текущей продолжительности</T1_Sub3>
+		<T1_Sub4>Поддержка виртуального рабочего стола(Windows 10)</T1_Sub4>
+		<T1_Sub5>Показать текст</T1_Sub5>
+		<T2>Отображение Cпектра БПФ</T2>
+		<T2_Sub1>Частота обновления спектра</T2_Sub1>
+		<T2_Sub2>Стратегия масштабирования поплавков</T2_Sub2>
+		<T3>Разное</T3>
+		<T3_Sub1>Твой язык</T3_Sub1>
+		<apy>OK</apy>
+		<sucess>Применение Config OK</sucess>
+		<l1>Децибел</l1>
+		<l2>Линейный</l2>
+		<l3>Эволюция</l3>
+		<SaveST>Конфигурация Успешно Сохранена</SaveST>
+		<SaveSTc>Все конфиги были успешно сохранены. Некоторым требуется перезапустить Луналипьсь (например, Языки).</SaveSTc>
+		<SaveFT>Ошибка Сохранения Конфигурации</SaveFT>
+		<SaveFTc>Ошибка при сохранении конфигурации. Проверьте, был ли файл занят другим приложением.</SaveFTc>
+		<plgm>Плагин Управления</plgm>
+	</unit>
+	<uint CompntName="plugin">
+		<noEntP>Точка входа плагина Луналипьсь не определена</noEntP>
+		<noEntPc>При загрузке плагина произошла ошибка: {0}. Точка входа не найдена или не реализована.</noEntPc>
+		<err>Исключение плагина Луналипьсь</err>
+		<errC>Ошибка при загрузке плагина. Подробное описание исключения: {0}</errC>
+		<errP>Несовместимая Функция</errP>
+		<errPC>Плагин {0} содержит расширенную программу Lunalipx script с другой версией. Пропуск загрузки.</errPC>
+	</uint>
+	<uint CompntName="PluginManager">
+		<title>Луналипьсь Плагин Управления</title>
+		<author>Aвтор：</author>
+		<team>Команда：</team>
+		<desc>Описание：</desc>
+		<ver>Версия：</ver>
+		<load>Aктивировать</load>
+		<unload>Дезактивировать</unload>
+		<hint_a>Aктивированная</hint_a>
+		<hint_u>Деактивированная</hint_u>
+	</uint>
+</Lunalipse>

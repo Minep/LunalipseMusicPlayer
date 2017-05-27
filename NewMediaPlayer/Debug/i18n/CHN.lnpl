@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lunalipse>
+	<uint CompntName="common">
+		<L0>简体中文</L0>
+		<L1>English</L1>
+		<L2>Русский</L2>
+	</uint>
+	<unit CompntName="Cfg">
+		<CfgIncmp>不兼容的配置文件</CfgIncmp>
+		<CfgIncmpC>     配置文件未包含版本号信息，这很有可能是过时的版本(Build版)或与当前版本不兼容的配置文件。已执行全部重新生成。</CfgIncmpC>
+		<CfgOld>旧版本的配置文件</CfgOld>
+		<CfgOldC>     配置文件储存的软件版本：{0} 与目前的版本：{1} 不同。这有可能会影响体验性，如有需要，请点击主页面的“保存配置”按钮以执行非强制性覆写。</CfgOldC>
+	</unit>
+	<unit CompntName="MainWindow">
+		<orderPlay>列表循环</orderPlay>
+		<singleLoop>单曲循环</singleLoop>
+		<randomPlay>随即播放</randomPlay>
+		<program>程式 {0}</program>
+		<saveCfg>保存设置</saveCfg>
+		<MusicDir>设置歌曲目录</MusicDir>
+		<lpxCfg>Lunalipx脚本设置</lpxCfg>
+		<btnList1>联网乐库</btnList1>
+		<btnList2>编辑/创建Lunalipx</btnList2>
+		<btnList3>加载脚本</btnList3>
+		<btnList4>均衡器</btnList4>
+		<GErr>常规错误</GErr>
+		<GE_C1>脚本未加载</GE_C1>
+	</unit>
+	<unit CompntName="scriptCfg">
+		<title>Lunalipx程序指针</title>
+		<curPtr>当前指针</curPtr>
+		<newPtr>新的指针</newPtr>
+		<apyCfgD>应用设置（延迟）</apyCfgD>
+		<apyCfgN>应用设置（立即）</apyCfgN>
+	</unit>
+	<unit CompntName="OLmusic">
+		<search>搜索</search>
+		<smode_M>单曲</smode_M>
+		<smode_L>歌词</smode_L>
+	</unit>
+	<unit CompntName="MusicDetail">
+		<extend>音频格式</extend>
+		<bitrate>比特率</bitrate>
+		<singer>演唱者</singer>
+		<L>标准音质</L>
+		<M>中等音质</M>
+		<H>高等音质</H>
+		<await>当前没有任务</await>
+		<Downloading>正在下载：</Downloading>
+		<kb>KB</kb>
+		<mb>MB</mb>
+		<gb>GB</gb>
+	</unit>
+	<unit CompntName="Dia_Tip">
+		<ok>确认</ok>
+	</unit>
+	<unit CompntName="Setting">
+		<title>Lunalipse 全局设置</title>
+		<T1>歌词显示区域</T1>
+		<T1_Sub1>开启FFT（低配置电脑请勿勾选此项）</T1_Sub1>
+		<T1_Sub2>显示正在播放的歌曲</T1_Sub2>
+		<T1_Sub3>显示当前进度</T1_Sub3>
+		<T1_Sub4>虚拟桌面支持（仅限Windows 10）</T1_Sub4>
+		<T1_Sub5>显示歌词</T1_Sub5>
+		<T2>快速傅里叶变换频谱</T2>
+		<T2_Sub1>频谱刷新频率</T2_Sub1>
+		<T2_Sub2>变换组浮点量化方案</T2_Sub2>
+		<T3>杂项</T3>
+		<T3_Sub1>设置您的语言偏好</T3_Sub1>
+		<apy>应用</apy>
+		<sucess>保存配置成功</sucess>
+		<l1>分贝</l1>
+		<l2>线性</l2>
+		<l3>开方</l3>
+		<SaveST>配置保存成功</SaveST>
+		<SaveSTc>所有设置保存成功。有些设置需要Lunalipse重新启动（比如语言偏好）。</SaveSTc>
+		<SaveFT>配置保存失败</SaveFT>
+		<SaveFTc>配置文件保存失败，请检查文件是否被其他应用程序占用。</SaveFTc>
+		<plgm>插件管理器</plgm>
+	</unit>
+	<uint CompntName="plugin">
+		<noEntP>Lunalipse插件入口点未定义</noEntP>
+		<noEntPc>加载插件：{0}出现异常，未找到入口点或未实现接口。</noEntPc>
+		<err>Lunalipse插件异常</err>
+		<errC>加载插件时出现异常。异常信息：{0}</errC>
+		<errP>不兼容的功能</errP>
+		<errPC>检测插件{0}中含有Lunalipx脚本拓展程序。其指定的版本与当前的版本不一致，已跳过加载。</errPC>
+	</uint>
+	<uint CompntName="PluginManager">
+		<title>Lunalipse插件管理</title>
+		<author>插件作者</author>
+		<team>团队</team>
+		<desc>描述</desc>
+		<ver>插件版本</ver>
+		<load>激活</load>
+		<unload>解除</unload>
+		<hint_a>已激活</hint_a>
+		<hint_u>未激活</hint_u>
+	</uint>
+</Lunalipse>

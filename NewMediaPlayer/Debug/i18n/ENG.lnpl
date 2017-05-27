@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lunalipse>
+	<uint CompntName="common">
+		<L0>简体中文</L0>
+		<L1>English</L1>
+		<L2>Русский</L2>
+	</uint>
+	<unit CompntName="Cfg">
+		<CfgIncmp>Incompatible Config File</CfgIncmp>
+		<CfgIncmpC>Version information not recorded in current config file.This may be the file in Build version or earlier。Regeneration procedure has been carried out.</CfgIncmpC>
+		<CfgOld>Old Config File</CfgOld>
+		<CfgOldC>Config file version: {0} are not match with {1} which is current Lunalipse version. If in need , press button called 'Save Cfg.' in main windows to execute non-mandatory overrides</CfgOldC>
+	</unit>
+	<unit CompntName="MainWindow">
+		<orderPlay>List Loop</orderPlay>
+		<singleLoop>Single Loop</singleLoop>
+		<randomPlay>Random</randomPlay>
+		<program>Programe {0}</program>
+		<saveCfg>Save Cfg</saveCfg>
+		<MusicDir>Music Path</MusicDir>
+		<lpxCfg>Lunalipx Script Setting</lpxCfg>
+		<btnList1>Online Music</btnList1>
+		<btnList2>Edit Lunalipx</btnList2>
+		<btnList3>Load Script</btnList3>
+		<btnList4>Equalizer</btnList4>
+		<GErr>General Error</GErr>
+		<GE_C1>The script have not been loaded.</GE_C1>
+	</unit>
+	<unit CompntName="scriptCfg">
+		<title>Lunalipx Programe Pointer (LPP)</title>
+		<curPtr>Current Pointer</curPtr>
+		<newPtr>New Pointer</newPtr>
+		<apyCfgD>Apply (Delay)</apyCfgD>
+		<apyCfgN>Apply (Immediately)</apyCfgN>
+	</unit>
+	<unit CompntName="OLmusic">
+		<search>搜索</search>
+		<smode_M>单曲</smode_M>
+		<smode_L>歌词</smode_L>
+	</unit>
+	<unit CompntName="MusicDetail">
+		<extend>音频格式</extend>
+		<bitrate>比特率</bitrate>
+		<singer>演唱者</singer>
+		<L>标准音质</L>
+		<M>中等音质</M>
+		<H>高等音质</H>
+		<await>当前没有任务</await>
+		<Downloading>正在下载：</Downloading>
+		<kb>KB</kb>
+		<mb>MB</mb>
+		<gb>GB</gb>
+	</unit>
+	<unit CompntName="Dia_Tip">
+		<ok>Confirm</ok>
+	</unit>
+	<unit CompntName="Setting">
+		<title>Lunalipse Global Setting</title>
+		<T1>Lyric Display Area</T1>
+		<T1_Sub1>Enabling FFT spectrum (Hightly cost of computer!)</T1_Sub1>
+		<T1_Sub2>Displaying current playing music</T1_Sub2>
+		<T1_Sub3>Displaying current duration</T1_Sub3>
+		<T1_Sub4>Virtual desktop support (Windows 10 only)</T1_Sub4>
+		<T1_Sub5>Display Lyrics</T1_Sub5>
+		<T2>FFT Spectrum Display</T2>
+		<T2_Sub1>Spectrum refresh frequency</T2_Sub1>
+		<T2_Sub2>Floats scaling strategy</T2_Sub2>
+		<T3>Miscellaneous</T3>
+		<T3_Sub1>Your language</T3_Sub1>
+		<apy>Apply</apy>
+		<sucess>Applying Config OK</sucess>
+		<l1>Decibel</l1>
+		<l2>Linear</l2>
+		<l3>Sqrt</l3>
+		<SaveST>Config Save Successful</SaveST>
+		<SaveSTc>All configs have been saved successful. Some requires to restart Lunalipse (e.g. Languages).</SaveSTc>
+		<SaveFT>Config Save Failure</SaveFT>
+		<SaveFTc>Error occurs while saving config. Please check whether the file has been occupied by other application.</SaveFTc>
+		<plgm>Plugin Manager</plgm>
+	</unit>
+	<uint CompntName="plugin">
+		<noEntP>Lunalipse Plugin Entry Point Not Defined</noEntP>
+		<noEntPc>An error occurred while loading plugin: {0}. Entry point not found or unimplemented interface.</noEntPc>
+		<err>Lunalipse Plugin Exception</err>
+		<errC>Error occurred while loading plugin. Detail of Exception：{0}</errC>
+		<errP>Incompatible Function</errP>
+		<errPC>Plugin {0} contains Lunalipx script extended programe with the different version. Skipping loading.</errPC>
+	</uint>
+	<uint CompntName="PluginManager">
+		<title>Lunalipse Plugin Manager</title>
+		<author>Author：</author>
+		<team>Team：</team>
+		<desc>Description：</desc>
+		<ver>Version：</ver>
+		<load>Activate</load>
+		<unload>Deactivate</unload>
+		<hint_a>ACTIVATED</hint_a>
+		<hint_u>DEACTIVATED</hint_u>
+	</uint>
+</Lunalipse>
