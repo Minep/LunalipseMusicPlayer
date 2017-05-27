@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewMediaPlayer", "NewMediaPlayer\NewMediaPlayer.csproj", "{40FDCB69-ADC6-4FB0-9349-18B9A8F13FCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunalipseAPI", "LunalipseAPI\LunalipseAPI.csproj", "{5CA9E904-B75E-422A-80B1-D969010FCDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugin", "TestPlugin\TestPlugin.csproj", "{C40A6344-229B-495B-A319-C2DEA54557AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I18N", "I18N\I18N.csproj", "{A435566E-49A1-48BC-9342-B4CC26164A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FDCB69-ADC6-4FB0-9349-18B9A8F13FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FDCB69-ADC6-4FB0-9349-18B9A8F13FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FDCB69-ADC6-4FB0-9349-18B9A8F13FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FDCB69-ADC6-4FB0-9349-18B9A8F13FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA9E904-B75E-422A-80B1-D969010FCDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA9E904-B75E-422A-80B1-D969010FCDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA9E904-B75E-422A-80B1-D969010FCDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA9E904-B75E-422A-80B1-D969010FCDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40A6344-229B-495B-A319-C2DEA54557AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40A6344-229B-495B-A319-C2DEA54557AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40A6344-229B-495B-A319-C2DEA54557AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40A6344-229B-495B-A319-C2DEA54557AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A435566E-49A1-48BC-9342-B4CC26164A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A435566E-49A1-48BC-9342-B4CC26164A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A435566E-49A1-48BC-9342-B4CC26164A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A435566E-49A1-48BC-9342-B4CC26164A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

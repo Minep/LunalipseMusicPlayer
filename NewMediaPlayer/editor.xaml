@@ -1,0 +1,37 @@
+﻿<Window x:Class="NewMediaPlayer.editor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewMediaPlayer"
+        mc:Ignorable="d"
+        Title="editor" Height="353.933" Width="621.348" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Background>
+        <ImageBrush ImageSource="res/Equestria.png"/>
+    </Window.Background>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="fonts.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Background="#C6000000">
+        <Image HorizontalAlignment="Left" Height="109" VerticalAlignment="Top" Width="91" Source="res/LunaCM.png"/>
+        <Label Content="Lunapxer" HorizontalAlignment="Left" Height="65" Margin="70,-5,0,0" VerticalAlignment="Top" Width="201" Foreground="White" FontSize="48" Style="{DynamicResource Equestria}"/>
+        <RichTextBox x:Name="edt" HorizontalAlignment="Left" Height="279" Margin="10,65,0,0" VerticalAlignment="Top" Width="493" Background="{x:Null}" Foreground="White" BorderThickness="0,0,0,1">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button Content="程式 1" HorizontalAlignment="Left" Height="34" Margin="508,65,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click"/>
+        <Button Content="程式 2" HorizontalAlignment="Left" Height="34" Margin="508,104,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click"/>
+        <Button Content="程式 3" HorizontalAlignment="Left" Height="34" Margin="508,143,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click"/>
+        <Button Content="程式 4" HorizontalAlignment="Left" Height="34" Margin="508,182,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click"/>
+        <Button Content="保存程式" HorizontalAlignment="Left" Height="54" Margin="508,290,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="程式 5" HorizontalAlignment="Left" Height="34" Margin="508,221,0,0" VerticalAlignment="Top" Width="103" Background="{x:Null}" BorderBrush="White" Foreground="White" Click="Button_Click"/>
+
+    </Grid>
+</Window>

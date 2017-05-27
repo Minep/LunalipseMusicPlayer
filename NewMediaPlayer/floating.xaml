@@ -1,0 +1,16 @@
+﻿<Window x:Class="NewMediaPlayer.floating"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewMediaPlayer"
+        mc:Ignorable="d"
+        Title="floating" Height="135" Width="1199.786" Background="#00000000" Foreground="White" WindowStyle="None" ResizeMode="NoResize" Deactivated="Window_Deactivated">
+    <Grid Background="#00000000" LostFocus="Grid_LostFocus">
+        <Image x:Name="fftContainer_ft" Margin="0,0,-1,0" HorizontalAlignment="Right" Width="381"/>
+        <Label x:Name="lrcdpL" Content="" Foreground="#FF6690DD" FontSize="41" Padding="0,30,6,17" Margin="20,17,-1,17"/>
+        <Label x:Name="name" Content="" VerticalAlignment="Top" Margin="906,0,0,0" Foreground="#FF333333" HorizontalContentAlignment="Right"/>
+        <Label x:Name="duration" Content="" VerticalAlignment="Top" Margin="1059,25,0,0" Foreground="#FF333333" HorizontalContentAlignment="Right"/>
+        <Label x:Name="secLrc" Content="" Background="{x:Null}" Foreground="#FF6690DD" Margin="20,89,-1,0" Padding="68,5,5,5" FontSize="20"/>
+    </Grid>
+</Window>
