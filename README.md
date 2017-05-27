@@ -16,4 +16,4 @@ A music player based on C# and CSCore
 The decoder library is based on [CSCore](https://github.com/filoe/cscore)
 
 ## License
-Lunalipse is licensed under the [GNU General Public License]()
+Lunalipse is licensed under the [GNU General Public License](https://github.com/Minep/LunalipseMusicPlayer/blob/master/LICENSE.md)
